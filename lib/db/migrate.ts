@@ -13,7 +13,7 @@ if (!process.env.DATABASE_URL) {
 
 // Main migration function
 async function runMigration() {
-    console.log("🔄 Starting database migration...");
+    console.log("Starting database migration...");
 
     try {
         // Create a Neon SQL connection
